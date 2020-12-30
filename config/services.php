@@ -45,9 +45,4 @@ return [
         'redirect' => 'http://localhost:8000/login/google/callback/',
       ]
 
-      //
-//GOOGLE_CLIENT_ID=203501093513-kfv5gtcuad8im9ogg06hhlj0306ejmjd.apps.googleusercontent.com
-//GOOGLE_CLIENT_SECRET=K7GtxT3mUtafeClLisGfnMwYs
-
-
 ];
