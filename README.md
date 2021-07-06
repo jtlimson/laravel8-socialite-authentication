@@ -13,6 +13,17 @@ It is tested on Mac, and theoretically can work on Windows (may need some tweaks
 
 ## How to use
 
+### Add .env config 
+
+```
+DB_CONNECTION=mysql
+DB_HOST=db
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=laraveluser
+DB_PASSWORD=your_mysql_root_password
+```
+
 ### Initialize
 
 `docker-compose up -d`
