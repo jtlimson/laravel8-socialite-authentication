@@ -16,43 +16,28 @@ It is tested on Mac, and theoretically can work on Windows (may need some tweaks
 ### Add .env config 
 
 ```
-APP_URL=http://localhost
-
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=laraveluser
 DB_PASSWORD=your_mysql_root_password
-
-GITHUB_CLIENT_ID=
-GITHUB_CLIENT_SECRET=
-
-FACEBOOK_APP_SECRET=
-FACEBOOK_APP_SECRET=
-
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-
 ```
 
-### Update composer 
+### Generate artisan key
 
-`composer install`
+`php artisan key:generate`
 
 ### Initialize
+
+1. On the root folder there a Dockerfile. Initiate build 
+
+`docker build .`
+
+2. Initiate docker-compose
 
 `docker-compose up -d`
 
 ### Stop
 
 `docker-compose down`
-
-### Usage
-
-| Route                | Social Media                    |
-|----------------------|---------------------------------|
-|url/login/facebook    | Facebook                        |
-|url/login/google      | Google                          |
-|url/login/github      | Github                          |
-|url/login/twitter     | xx                              |
