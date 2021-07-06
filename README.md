@@ -11,8 +11,6 @@ It is tested on Mac, and theoretically can work on Windows (may need some tweaks
 
 2. composer
 
-3. Accessibility of our git repos https://github.com/jtlimson/laravel8-socialite-authentication/
-
 ## How to use
 
 ### Add .env config 
