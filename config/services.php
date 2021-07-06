@@ -29,20 +29,22 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+
     'github' => [
         'client_id' => env('GITHUB_CLIENT_ID'),
         'client_secret' => env('GITHUB_CLIENT_SECRET'),
-        'redirect' => 'http://localhost:8000/login/github/callback/',
+        'redirect' => env('APP_URL').'/login/github/callback/',
     ],
     'facebook' => [
         'client_id' => env('FACEBOOK_APP_ID'),
         'client_secret' => env('FACEBOOK_APP_SECRET'),
-        'redirect' => 'http://localhost:8000/login/facebook/callback/',
+        'redirect' => env('APP_URL').'/login/facebook/callback/',
       ],
       'google' => [
         'client_id' => env('GOOGLE_CLIENT_ID'),         
         'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-        'redirect' => 'http://localhost:8000/login/google/callback/',
+        'redirect' => env('APP_URL').'/login/google/callback/',
       ]
+
 
 ];
