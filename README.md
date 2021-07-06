@@ -9,7 +9,7 @@ It is tested on Mac, and theoretically can work on Windows (may need some tweaks
 ## Requirement
 1. docker for mac / docker tool box for windows
 
-1. Accessibility of our git repos https://git.rakuten-it.com/projects/RTOT
+1. Accessibility of our git repos https://github.com/jtlimson/laravel8-socialite-authentication/
 
 ## How to use
 
